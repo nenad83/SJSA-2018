@@ -1,0 +1,175 @@
+body {
+	background: red;
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width: 900px;
+	height: 1405px;
+	padding: 0;
+	margin: 0;
+	background: white;
+	margin: 0 auto 0 auto;
+	border: 15px solid #d6d6d6;
+
+}
+header {
+	width: 900px;
+	height: 245px;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	border-bottom: 15px solid #d6d6d6;
+
+}
+.logo {
+	padding-left: 20px;
+	padding-top: 40px;
+
+}
+nav {
+    width: 900px;
+    height: 100px;
+    color: green;
+    text-decoration: none;
+    color: black;
+}
+
+.navigacija {
+    width: 900px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 40px;
+}
+.navigacija li{
+    float: left;
+    margin: 0 20px 0 0;
+    margin: 40px 40px 0 0;
+    font-family: Arial;
+    font-size: 25px;
+}
+.navigacija a {
+	text-decoration: none;
+	color: black;
+    border-right: 2px solid black;
+    padding-right: 30px;
+}
+.navigacija a:hover {
+	color: red;
+	margin: 10px 0 0 0;
+	display: block;
+}
+
+/* ----------------------------SECTION-------------------*/
+
+section {
+	width: 900px;
+	height: 200px;
+	padding: 0;
+	margin: 0;
+	background-color: #ef0696;
+	border-bottom: 15px solid #d6d6d6;
+}
+.poraka {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	font-size: 30px;
+	padding: 70px 0 70px 40px;
+}
+
+/* ----------------------------ARTICLE1-------------------*/
+
+
+.prv-article {
+	width: 900px;
+	height: 250px;
+	padding: 0;
+	margin: 0;
+	background-color: #06c5ef;
+	border-bottom: 15px solid #d6d6d6;
+}
+.naslov-artcle1 {
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	font-family: Arial;
+	padding: 40px 0 0 40px;
+}
+.paragraf-article1 {
+	font-size: 14px;
+	font-family: Arial;
+	padding: 0 0 0 40px ;
+}
+.link-article1 {
+	padding: 0 0 0 40px;
+}
+
+/* ----------------------------ARTICLE2-------------------*/
+
+.vtor-article {
+	width: 900px;
+	height: 350px;
+	background-color: #06ef9e;
+	border-bottom: 15px solid #d6d6d6;
+}
+.naslov-article2 {
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	font-family: Arial;
+	padding: 40px 0 0 40px;
+}
+.paragraf-article2 {
+	font-size: 14px;
+	font-family: Arial;
+	padding: 0 0 0 40px ;
+}
+
+.sliki {
+	padding: 0 0 0 40px;
+}
+.slika1 {
+	width: 322px;
+	height: 160px;
+}
+.slika2 {
+	width: 232px;
+	height: 160px;
+}
+
+/* ----------------------------FOOTER-------------------*/
+
+footer {
+	width: 900px;
+	height: 300px;
+	background-color: #eeb506;
+	text-decoration: none;
+}
+.paragraf-footer {
+	padding: 50px 0 0 40px;
+	margin: 0 400px 0 0;
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+}
+
+.lista-footer {
+	list-style-type: none;
+}
+.nav-footer li {
+	text-decoration: none;
+}
+
+.nav-footer li a {
+	color: #355882;
+	text-decoration: none;
+}
+.nav-footer li a:hover {
+	color: red;
+    text-decoration: underline;
+    margin: 0 0 0 10px;
+    display: block;
+}
